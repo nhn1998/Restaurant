@@ -5,7 +5,7 @@ const ShopTab = ({items}) => {
     return (
         <div className='grid md:grid-cols-3 gap-7'>
             {
-                items.map(item=><CardItems key={item.id} items={item}></CardItems>)
+                items.map(item=><CardItems key={item._id} items={item}></CardItems>)
             }
         </div>
     );
